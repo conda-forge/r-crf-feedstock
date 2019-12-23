@@ -1,4 +1,4 @@
-{% set version = '0.4-2' %}
+{% set version = "0.4-3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/CRF_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/CRF/CRF_{{ version }}.tar.gz
-  sha256: b48c4432c586dd2ef11da0228c43cc493eee282eaf5c23401022735c6e4ff85d
+  sha256: 6e476f83a026ee28403f82eb85c26515c65c6ede24aeafc3d7e78be65c608c4a
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
