@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://github.com/wulingyun/CRF
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Implements modeling and computational tools for conditional random fields (CRF) model
     as well as other probabilistic undirected graphical models of discrete data with
     pairwise and unary potentials.
