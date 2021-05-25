@@ -3,7 +3,7 @@ About r-crf
 
 Home: https://github.com/wulingyun/CRF
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-crf-feedstock/blob/master/LICENSE.txt)
 
